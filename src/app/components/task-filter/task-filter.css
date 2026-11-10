@@ -1,0 +1,18 @@
+.filters {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 6px 14px;
+  border: 1px solid #3498db;
+  background: white;
+  color: #3498db;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.selected {
+  background: #3498db;
+  color: white;
+}

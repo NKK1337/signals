@@ -1,0 +1,7 @@
+<div class="filters">
+  <button [class.selected]="current() === 'all'" (click)="choose('all')">All</button>
+  <button [class.selected]="current() === 'active'" (click)="choose('active')">Active</button>
+  <button [class.selected]="current() === 'completed'" (click)="choose('completed')">
+    Completed
+  </button>
+</div>

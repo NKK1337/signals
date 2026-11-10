@@ -1,0 +1,9 @@
+<div class="stats">
+  <p>
+    Total: {{ total() }} | Active: {{ active() }} | Completed: {{ completed() }} | Progress:
+    {{ percentage() }}%
+  </p>
+  <div class="bar">
+    <div class="fill" [style.width.%]="percentage()"></div>
+  </div>
+</div>
